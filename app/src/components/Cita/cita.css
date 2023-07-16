@@ -1,0 +1,53 @@
+.titulo-cita {
+    font-family: "Poppins";
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cita-cargando {
+    font-family: "Poppins";
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+
+.cita {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.cita * {
+    color: black;
+}
+
+.cita-evento {
+    height: fit-content;
+    padding: 0 10px;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+.cita-evento p {
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fc-timegrid-event-harness-inset {
+    inset-inline-end: -3% !important;
+    inset-inline-start: -1.8% !important;
+}
+
+.fc-button {
+    border-radius: 0 !important;
+}
